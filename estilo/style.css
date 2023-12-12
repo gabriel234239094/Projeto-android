@@ -37,6 +37,7 @@ p{
    text-align: justify;
    text-indent: 3em;
    line-height: 1.7em;
+   width:90%;
   
    
 }
@@ -45,6 +46,7 @@ header{
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
+    width: 100%;
 
 }
 header > h1{
@@ -55,6 +57,7 @@ header > h1{
     margin-bottom: 20px;
     font-size: 3em;
     text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.36);
+    width: 100%;
    
 
 }
@@ -62,13 +65,15 @@ header > p{
     color: white;
     font-family:var(--font-padrao) ;
     font-size: 1.2em;
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
-    padding-left:20px ;
+    padding-left:10px ;
     padding-right: 10px;
     text-shadow: 4px 3px 2px rgba(0, 0, 0, 0.36);
     text-indent: 0%;
+    padding-bottom: 30px;
     text-align: center;
+    width: 97%;
 }
 nav{
     background-color: var(--cor5);
@@ -121,15 +126,17 @@ main{
 main h1{
     color: var(--cor5);
     font-family: var(--font-android);
-    font-size: 1.8em;
+    font-size: 1.8em;   
+     width: 100%;
   
 }
 main h2{
     font-family: var(--font-android);
     color: var(--cor4);
     font-size: 1.3em;
-   
+    width: 100%;
 }
+
 main strong{
  
     color:var(--cor4) ;
@@ -152,14 +159,14 @@ aside{
     background-color:#2fa866 ;
     padding: 10px;
     border-radius: 10px;
-    width: 100%;
+  
      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.307);
 }
 aside > ul{
     list-style-position:inside ;
     columns: 2 ;
     list-style-type: '🗸 \0020';
-   
+    width: 50%;
 }
 aside  h3{
     background-color: #063d1e;
@@ -168,6 +175,7 @@ aside  h3{
     width: 100%;
     border-radius:10px 10px 0px 0px  ;
     padding: 10px;
+ 
 }
 footer p{
    
